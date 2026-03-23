@@ -364,9 +364,14 @@ export default function App() {
                   </div>
                   <div>
                     <p className="text-white/50 text-sm uppercase font-bold tracking-widest mb-1">Dirección</p>
-                    <p className="text-2xl font-bold">
+                    <a 
+                      href="https://maps.google.com/?q=Los+Nogales+Poniente+32a,+Lampa,+Chile"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-2xl font-bold hover:text-brand-light transition-colors block"
+                    >
                       Los Nogales Poniente 32a,<br />Lampa, Chile
-                    </p>
+                    </a>
                   </div>
                 </div>
               </div>
