@@ -397,14 +397,26 @@ export default function App() {
                     e.preventDefault();
                     setFormState('submitting');
                     
-                    // Aquí es donde conectarías con un servicio como Formspree, Resend o tu propio backend.
-                    // Ejemplo con Formspree: fetch('https://formspree.io/f/TU_ID', { method: 'POST', body: new FormData(e.currentTarget) })
-                    
-                    // Simulamos el tiempo de envío de red para la demostración
-                    await new Promise(resolve => setTimeout(resolve, 1500));
-                    
-                    setFormState('success');
-                    (e.target as HTMLFormElement).reset();
+                    try {
+                      const response = await fetch('https://formspree.io/f/xaqpryaz', {
+                        method: 'POST',
+                        body: new FormData(e.currentTarget),
+                        headers: {
+                          'Accept': 'application/json'
+                        }
+                      });
+                      
+                      if (response.ok) {
+                        setFormState('success');
+                        (e.target as HTMLFormElement).reset();
+                      } else {
+                        alert("Hubo un error al enviar el mensaje. Por favor intenta nuevamente.");
+                        setFormState('idle');
+                      }
+                    } catch (error) {
+                      alert("Error de conexión. Intenta nuevamente.");
+                      setFormState('idle');
+                    }
                   }}
                 >
                   <div className="grid grid-cols-2 gap-4">
