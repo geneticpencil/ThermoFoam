@@ -231,7 +231,7 @@ export default function App() {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-brand-dark mb-3">Espuma de Polietileno</h3>
-                <p className="text-slate-600 mb-4">Rollos de espuma niveladora y aislante, ideal para bajo piso flotante y protección de embalaje. Excelente absorción de impactos.</p>
+                <p className="text-slate-600 mb-4">Solución de alto rendimiento para nivelación y aislación termoacústica. Su excelente capacidad de absorción de impactos la convierte en la opción ideal para la instalación de bajo pisos flotantes y la protección segura de embalajes industriales.</p>
               </div>
             </div>
 
