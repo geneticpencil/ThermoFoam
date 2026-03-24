@@ -546,19 +546,26 @@ export default function App() {
       {/* Footer */}
       <footer className="py-12 border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
-          <div className="flex items-center gap-2">
-            {!logoError && (
-              <img 
-                src={LOGO_URL} 
-                alt="ThermoFoam Logo" 
-                className="h-8 w-auto" 
-                referrerPolicy="no-referrer"
-                onError={() => setLogoError(true)}
-              />
-            )}
-            <span className="font-bold text-lg tracking-tight text-brand-dark">
-              THERMO<span className="text-brand-light">FOAM</span>
-            </span>
+          <div className="flex items-center gap-4 md:gap-6">
+            <div className="flex items-center gap-2">
+              {!logoError && (
+                <img 
+                  src={LOGO_URL} 
+                  alt="ThermoFoam Logo" 
+                  className="h-8 w-auto" 
+                  referrerPolicy="no-referrer"
+                  onError={() => setLogoError(true)}
+                />
+              )}
+              <span className="font-bold text-lg tracking-tight text-brand-dark">
+                THERMO<span className="text-brand-light">FOAM</span>
+              </span>
+            </div>
+            
+            {/* Cannon Concept Logo Footer */}
+            <a href="https://www.cannonconcept.cl" target="_blank" rel="noopener noreferrer" className="border-l-2 border-slate-200 pl-4 md:pl-6 hover:opacity-80 transition-opacity flex items-center">
+              <img src="/images/cannon.png" alt="Cannon Concept Logo" className="h-6 md:h-8 w-auto object-contain" />
+            </a>
           </div>
           
           <p className="text-slate-400 text-sm">
