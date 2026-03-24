@@ -266,6 +266,38 @@ export default function App() {
                 <p className="text-slate-600 mb-4">Confort y calidez para tus espacios. Variedad de texturas y colores para proyectos residenciales y comerciales.</p>
               </div>
             </div>
+
+            {/* Producto 4: Pasto Sintético */}
+            <div className="bg-slate-50 rounded-3xl overflow-hidden shadow-sm border border-slate-100 group">
+              <div className="h-64 overflow-hidden">
+                <img 
+                  src="/images/pasto-sintetico.png" 
+                  alt="Pasto Sintético" 
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-bold text-brand-dark mb-3">Pasto Sintético</h3>
+                <p className="text-slate-600 mb-4">Alternativa duradera y de bajo mantenimiento para jardines, terrazas y espacios deportivos. Aspecto natural todo el año.</p>
+              </div>
+            </div>
+
+            {/* Producto 5: Pasillos de Alfombra */}
+            <div className="bg-slate-50 rounded-3xl overflow-hidden shadow-sm border border-slate-100 group">
+              <div className="h-64 overflow-hidden">
+                <img 
+                  src="/images/pasillos-alfombra.png" 
+                  alt="Rollos de Pasillos de Alfombra" 
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-bold text-brand-dark mb-3">Pasillos de Alfombra</h3>
+                <p className="text-slate-600 mb-4">Rollos elegantes y resistentes para pasillos, pasarelas y eventos. Brindan confort, seguridad y un acabado premium a cualquier ambiente.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
