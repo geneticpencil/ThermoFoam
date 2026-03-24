@@ -298,6 +298,22 @@ export default function App() {
                 <p className="text-slate-600 mb-4">Rollos elegantes y resistentes para pasillos, pasarelas y eventos. Brindan confort, seguridad y un acabado premium a cualquier ambiente.</p>
               </div>
             </div>
+
+            {/* Producto 6: Pisos Vinílicos en Rollo */}
+            <div className="bg-slate-50 rounded-3xl overflow-hidden shadow-sm border border-slate-100 group">
+              <div className="h-64 overflow-hidden">
+                <img 
+                  src="/images/vinilico.png" 
+                  alt="Vinílico en Rollo (0.9 a 1.5mm)" 
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-bold text-brand-dark mb-3">Vinílico en Rollo</h3>
+                <p className="text-slate-600 mb-4">Piso vinílico en rollo disponible en 0.9mm y 1.5mm de espesor. Solución resistente al agua y de fácil instalación para renovar espacios de manera práctica y estética.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
