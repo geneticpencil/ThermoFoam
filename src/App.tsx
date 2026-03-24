@@ -48,19 +48,26 @@ export default function App() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            {!logoError && (
-              <img 
-                src={LOGO_URL} 
-                alt="ThermoFoam Logo" 
-                className="h-10 w-auto" 
-                referrerPolicy="no-referrer"
-                onError={() => setLogoError(true)}
-              />
-            )}
-            <span className={`font-bold text-xl tracking-tight ${scrolled ? "text-brand-dark" : "text-brand-dark"}`}>
-              THERMO<span className="text-brand-light">FOAM</span>
-            </span>
+          <div className="flex items-center gap-4 md:gap-6">
+            <div className="flex items-center gap-2">
+              {!logoError && (
+                <img 
+                  src={LOGO_URL} 
+                  alt="ThermoFoam Logo" 
+                  className="h-10 w-auto" 
+                  referrerPolicy="no-referrer"
+                  onError={() => setLogoError(true)}
+                />
+              )}
+              <span className={`font-bold text-xl tracking-tight hidden sm:block ${scrolled ? "text-brand-dark" : "text-brand-dark"}`}>
+                THERMO<span className="text-brand-light">FOAM</span>
+              </span>
+            </div>
+            
+            {/* Cannon Concept Logo */}
+            <a href="https://www.cannonconcept.cl" target="_blank" rel="noopener noreferrer" className="border-l-2 border-slate-200 pl-4 md:pl-6 hover:opacity-80 transition-opacity flex items-center">
+              <img src="/images/cannon.png" alt="Cannon Concept Logo" className="h-8 md:h-10 w-auto object-contain" />
+            </a>
           </div>
 
           {/* Desktop Nav */}
@@ -150,15 +157,27 @@ export default function App() {
               >
                 Ver Productos
               </a>
-              <a 
-                href="https://drive.google.com/uc?export=download&id=18aMP_XKzOk3nS9gaq_9EBJQRgy2SAZO8"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-brand-light/10 text-brand-dark px-8 py-4 rounded-2xl font-bold hover:bg-brand-light/20 transition-all flex items-center gap-2"
-              >
-                Descargar Catálogo
-                <Download size={20} />
-              </a>
+              
+              <div className="w-full flex flex-col sm:flex-row gap-4 mt-2">
+                <a 
+                  href="https://drive.google.com/uc?export=download&id=18aMP_XKzOk3nS9gaq_9EBJQRgy2SAZO8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-brand-light/10 text-brand-dark px-6 py-4 rounded-2xl font-bold hover:bg-brand-light/20 transition-all flex items-center justify-center gap-2 flex-1 text-center text-sm md:text-base"
+                >
+                  Descargar Catálogo Flooring
+                  <Download size={18} />
+                </a>
+                <a 
+                  href="https://drive.google.com/uc?export=download&id=1luh7WnAhleLkDl8t_N781dfe7VNjceJS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-brand-dark/10 text-brand-dark px-6 py-4 rounded-2xl font-bold hover:bg-brand-dark/20 transition-all flex items-center justify-center gap-2 flex-1 text-center text-sm md:text-base"
+                >
+                  Descargar Catálogo Alfombras Dimensionadas
+                  <Download size={18} />
+                </a>
+              </div>
             </div>
           </motion.div>
 
