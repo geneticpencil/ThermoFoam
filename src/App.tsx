@@ -14,7 +14,8 @@ import {
   Menu, 
   X,
   ArrowRight,
-  Download
+  Download,
+  MessageCircle
 } from "lucide-react";
 import { useState, useEffect } from "react";
 
@@ -260,7 +261,16 @@ export default function App() {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-brand-dark mb-3">Espuma de Polietileno</h3>
-                <p className="text-slate-600 mb-4">Solución de alto rendimiento para nivelación y aislación termoacústica. Su excelente capacidad de absorción de impactos la convierte en la opción ideal para la instalación de bajo pisos flotantes y la protección segura de embalajes industriales.</p>
+                <p className="text-slate-600 mb-6">Solución de alto rendimiento para nivelación y aislación termoacústica. Su excelente capacidad de absorción de impactos la convierte en la opción ideal para la instalación de bajo pisos flotantes y la protección segura de embalajes industriales.</p>
+                <a 
+                  href="https://wa.me/56975697974?text=Hola,%20quisiera%20cotizar%20el%20producto:%20Espuma%20de%20Polietileno"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#25D366]/10 text-[#25D366] px-4 py-2 rounded-xl font-bold hover:bg-[#25D366] hover:text-white transition-all text-sm w-fit"
+                >
+                  <MessageCircle size={18} />
+                  Cotizar Producto
+                </a>
               </div>
             </div>
 
@@ -276,7 +286,16 @@ export default function App() {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-brand-dark mb-3">Piso Flotante</h3>
-                <p className="text-slate-600 mb-4">Diseños modernos y duraderos. Fácil instalación y excelente resistencia al desgaste diario para renovar cualquier espacio.</p>
+                <p className="text-slate-600 mb-6">Diseños modernos y duraderos. Fácil instalación y excelente resistencia al desgaste diario para renovar cualquier espacio.</p>
+                <a 
+                  href="https://wa.me/56975697974?text=Hola,%20quisiera%20cotizar%20el%20producto:%20Piso%20Flotante"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#25D366]/10 text-[#25D366] px-4 py-2 rounded-xl font-bold hover:bg-[#25D366] hover:text-white transition-all text-sm w-fit"
+                >
+                  <MessageCircle size={18} />
+                  Cotizar Producto
+                </a>
               </div>
             </div>
 
@@ -292,7 +311,16 @@ export default function App() {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-brand-dark mb-3">Alfombras Muro a Muro</h3>
-                <p className="text-slate-600 mb-4">Confort y calidez para tus espacios. Variedad de texturas y colores para proyectos residenciales y comerciales.</p>
+                <p className="text-slate-600 mb-6">Confort y calidez para tus espacios. Variedad de texturas y colores para proyectos residenciales y comerciales.</p>
+                <a 
+                  href="https://wa.me/56975697974?text=Hola,%20quisiera%20cotizar%20el%20producto:%20Alfombras%20Muro%20a%20Muro"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#25D366]/10 text-[#25D366] px-4 py-2 rounded-xl font-bold hover:bg-[#25D366] hover:text-white transition-all text-sm w-fit"
+                >
+                  <MessageCircle size={18} />
+                  Cotizar Producto
+                </a>
               </div>
             </div>
 
@@ -308,7 +336,16 @@ export default function App() {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-brand-dark mb-3">Pasto Sintético</h3>
-                <p className="text-slate-600 mb-4">Alternativa duradera y de bajo mantenimiento para jardines, terrazas y espacios deportivos. Aspecto natural todo el año.</p>
+                <p className="text-slate-600 mb-6">Alternativa duradera y de bajo mantenimiento para jardines, terrazas y espacios deportivos. Aspecto natural todo el año.</p>
+                <a 
+                  href="https://wa.me/56975697974?text=Hola,%20quisiera%20cotizar%20el%20producto:%20Pasto%20Sint%C3%A9tico"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#25D366]/10 text-[#25D366] px-4 py-2 rounded-xl font-bold hover:bg-[#25D366] hover:text-white transition-all text-sm w-fit"
+                >
+                  <MessageCircle size={18} />
+                  Cotizar Producto
+                </a>
               </div>
             </div>
 
@@ -324,7 +361,16 @@ export default function App() {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-brand-dark mb-3">Pasillos de Alfombra</h3>
-                <p className="text-slate-600 mb-4">Rollos elegantes y resistentes para pasillos, pasarelas y eventos. Brindan confort, seguridad y un acabado premium a cualquier ambiente.</p>
+                <p className="text-slate-600 mb-6">Rollos elegantes y resistentes para pasillos, pasarelas y eventos. Brindan confort, seguridad y un acabado premium a cualquier ambiente.</p>
+                <a 
+                  href="https://wa.me/56975697974?text=Hola,%20quisiera%20cotizar%20el%20producto:%20Pasillos%20de%20Alfombra"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#25D366]/10 text-[#25D366] px-4 py-2 rounded-xl font-bold hover:bg-[#25D366] hover:text-white transition-all text-sm w-fit"
+                >
+                  <MessageCircle size={18} />
+                  Cotizar Producto
+                </a>
               </div>
             </div>
 
@@ -340,7 +386,16 @@ export default function App() {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-brand-dark mb-3">Vinílico en Rollo</h3>
-                <p className="text-slate-600 mb-4">Piso vinílico en rollo disponible en 0.9mm y 1.5mm de espesor. Solución resistente al agua y de fácil instalación para renovar espacios de manera práctica y estética.</p>
+                <p className="text-slate-600 mb-6">Piso vinílico en rollo disponible en 0.9mm y 1.5mm de espesor. Solución resistente al agua y de fácil instalación para renovar espacios de manera práctica y estética.</p>
+                <a 
+                  href="https://wa.me/56975697974?text=Hola,%20quisiera%20cotizar%20el%20producto:%20Vin%C3%ADlico%20en%20Rollo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#25D366]/10 text-[#25D366] px-4 py-2 rounded-xl font-bold hover:bg-[#25D366] hover:text-white transition-all text-sm w-fit"
+                >
+                  <MessageCircle size={18} />
+                  Cotizar Producto
+                </a>
               </div>
             </div>
           </div>
@@ -450,6 +505,19 @@ export default function App() {
                       Los Nogales Poniente 32a,<br />Lampa, Chile
                     </a>
                   </div>
+                </div>
+
+                {/* Google Map Embedded */}
+                <div className="w-full h-64 rounded-2xl overflow-hidden shadow-lg border border-white/10 mt-8">
+                  <iframe 
+                    src="https://maps.google.com/maps?q=Los+Nogales+Poniente+32a,+Lampa,+Chile&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    width="100%" 
+                    height="100%" 
+                    style={{ border: 0 }} 
+                    allowFullScreen={true} 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
               </div>
             </div>
