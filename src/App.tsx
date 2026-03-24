@@ -13,7 +13,8 @@ import {
   ChevronRight, 
   Menu, 
   X,
-  ArrowRight
+  ArrowRight,
+  Download
 } from "lucide-react";
 import { useState, useEffect } from "react";
 
@@ -145,9 +146,18 @@ export default function App() {
               </a>
               <a 
                 href="#productos" 
-                className="border-2 border-slate-200 text-slate-700 px-8 py-4 rounded-2xl font-bold hover:bg-slate-50 transition-all"
+                className="border-2 border-slate-200 text-slate-700 px-8 py-4 rounded-2xl font-bold hover:bg-slate-50 transition-all flex items-center justify-center"
               >
                 Ver Productos
+              </a>
+              <a 
+                href="https://drive.google.com/uc?export=download&id=18aMP_XKzOk3nS9gaq_9EBJQRgy2SAZO8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-brand-light/10 text-brand-dark px-8 py-4 rounded-2xl font-bold hover:bg-brand-light/20 transition-all flex items-center gap-2"
+              >
+                Descargar Catálogo
+                <Download size={20} />
               </a>
             </div>
           </motion.div>
