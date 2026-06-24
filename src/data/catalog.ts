@@ -36,7 +36,7 @@ export const catalogData: Category[] = [
           "Tipo de Fibra": "100% Polipropileno BCF",
           "Tipo de Alfombra": "Boucle"
         },
-        description: "Alfombra en bucle resistente, ideal para zonas residenciales de tráfico moderado a alto, con tonos sobrios y elegantes.",
+        description: "Diseñada para abrazar tus espacios con calidez y durabilidad. Su textura en bucle resiste el ir y venir de la vida familiar, vistiendo tu hogar con tonos sobrios que invitan a caminar descalzo.",
         image: "/images/catalog_images/prod_baron.jpg",
         swatches: [
           { name: "Beige", image: "/images/catalog_images/swatch_baron_beige.jpg" },
@@ -56,7 +56,7 @@ export const catalogData: Category[] = [
           "Tipo de Fibra": "100% Polipropileno BCF",
           "Tipo de Alfombra": "Boucle"
         },
-        description: "Una de nuestras líneas más versátiles con una amplia paleta de colores para combinar con cualquier diseño interior.",
+        description: "Nuestra opción más alegre y versátil. Con una paleta de colores vibrante y acogedora, Malibu se adapta al alma de cada habitación, brindando suavidad al tacto y confort acústico para los tuyos.",
         image: "/images/catalog_images/prod_malibu.jpg",
         swatches: [
           { name: "Beige", image: "/images/catalog_images/swatch_malibu_1.jpg" },
@@ -79,7 +79,7 @@ export const catalogData: Category[] = [
           "Tipo de Fibra": "100% Polipropileno BCF",
           "Tipo de Alfombra": "Boucle"
         },
-        description: "Diseño elegante y textura suave. Aporta un ambiente cálido y minimalista con sus tonos naturales.",
+        description: "Un refugio de paz para tu hogar. Dalton combina un diseño sutil y minimalista con una textura sumamente reconfortante, ideal para crear rincones de relajación en tonos naturales.",
         image: "/images/catalog_images/prod_dalton.jpg",
         swatches: [
           { name: "Gris Perla", image: "/images/catalog_images/swatch_dalton_1.jpg" },
@@ -98,7 +98,7 @@ export const catalogData: Category[] = [
           "Tipo de Fibra": "100% Polipropileno BCF",
           "Tipo de Alfombra": "Boucle"
         },
-        description: "Alfombra boucle de alta calidad orientada a proyectos residenciales y oficinas, ofreciendo confort y facilidad de mantenimiento.",
+        description: "El equilibrio perfecto entre elegancia y practicidad diaria. Ofrece una pisada confortable y mullida a la vez que es sumamente fácil de limpiar, ideal para hogares activos y oficinas modernas.",
         image: "/images/catalog_images/prod_bali.jpg",
         swatches: [
           { name: "Visón", image: "/images/catalog_images/swatch_bali_1.jpg" },
@@ -117,7 +117,7 @@ export const catalogData: Category[] = [
           "Base": "Goma antideslizante",
           "Composición": "100% Polipropileno"
         },
-        description: "Opción económica y funcional con base de goma antideslizante. Ideal para eventos, oficinas transitorias o habitaciones.",
+        description: "Práctico, seguro y sumamente noble. Su base de goma antideslizante cuida tus pasos mientras viste de color de forma rápida cualquier habitación, evento o espacio de trabajo transitorio.",
         image: "/images/catalog_images/prod_cubrepiso.jpg",
         swatches: [
           { name: "Rojo", image: "/images/catalog_images/swatch_cubrepiso_1.jpg" },
@@ -149,7 +149,7 @@ export const catalogData: Category[] = [
           "Rendimiento por Caja": "2.42 m²",
           "Rendimiento Pallet": "145.20 m² (60 cajas)"
         },
-        description: "Piso flotante laminado clásico con núcleo de MDF, ideal para renovar habitaciones y salas con un aspecto amaderado natural y acogedor.",
+        description: "La calidez clásica de la madera en su expresión más práctica. Su diseño natural y amaderado transforma las habitaciones en espacios acogedores, listos para albergar momentos familiares inolvidables.",
         image: "/images/catalog_images/prod_ecofloor.jpg",
         swatches: [
           { name: "Cerezo", image: "/images/catalog_images/flotante_page12_img6.png" },
@@ -173,7 +173,7 @@ export const catalogData: Category[] = [
           "Rendimiento por Caja": "2.40 m²",
           "Rendimiento Pallet": "144.00 m² (60 cajas)"
         },
-        description: "Piso laminado de alta densidad (HDF) diseñado para resistir un tráfico intenso. Cuenta con clasificación AC4 para máxima resistencia.",
+        description: "Hecho para durar toda la vida y resistir las jornadas más activas de tu hogar o comercio. Con su núcleo ultra resistente de HDF y estándar AC4, soporta el tránsito pesado sin perder un ápice de su belleza natural.",
         image: "/images/catalog_images/prod_flotantepro.jpg",
         swatches: [
           { name: "Cerezo", image: "/images/catalog_images/flotante_page12_img6.png" },
@@ -203,7 +203,7 @@ export const catalogData: Category[] = [
           "Rendimiento por Caja": "2.42 m²",
           "Rendimiento Pallet": "157.30 m² (65 cajas)"
         },
-        description: "Piso de compuesto de piedra plástica (SPC) de alta resistencia, 100% impermeable con manta de aislamiento acústico IXPE integrada.",
+        description: "Robusto como la piedra pero con el tacto acogedor de la madera. Su composición impermeable te brinda total tranquilidad ante derrames en cocinas y baños, mientras su manta acústica integrada amortigua cada paso con suavidad.",
         image: "/images/catalog_images/prod_spc5mm.jpg",
         swatches: [
           { name: "Alamo Oak", image: "/images/catalog_images/spc_page7_img2.png" },
@@ -226,7 +226,7 @@ export const catalogData: Category[] = [
           "Rendimiento por Caja": "2.46 m²",
           "Rendimiento Pallet": "159.90 m² (65 cajas)"
         },
-        description: "Línea inteligente de SPC, más ligera pero con excelente estabilidad dimensional, resistencia al agua y manta EVA incorporada.",
+        description: "Una alternativa moderna y liviana que no le teme al agua ni a los cambios de temperatura. Mantiene su forma perfecta en cualquier estación y su manta EVA incorporada asegura una pisada mullida y silenciosa.",
         image: "/images/catalog_images/prod_smartspc.png",
         swatches: [
           { name: "Ceniza Oak", image: "/images/catalog_images/spc_page7_img7.png" },
@@ -252,7 +252,7 @@ export const catalogData: Category[] = [
           "Largo de Rollo": "25.00 metros",
           "Rendimiento de Rollo": "50.00 m²"
         },
-        description: "Revestimiento vinílico en rollo, muy fácil de limpiar e instalar. Resistente al agua, ideal para cocinas, baños y comercios de tránsito residencial.",
+        description: "Un aliado práctico e impermeable para el día a día. Se instala sin complicaciones y se limpia con una sola pasada, trayendo frescura y comodidad a tu cocina, baño o local comercial.",
         image: "/images/catalog_images/prod_linoleo09.jpg",
         swatches: [
           { name: "JC008", image: "/images/catalog_images/vinilico_page15_img2.png" },
@@ -273,7 +273,7 @@ export const catalogData: Category[] = [
           "Largo de Rollo": "20.00 metros",
           "Rendimiento de Rollo": "40.00 m²"
         },
-        description: "Piso vinílico en rollo de mayor espesor (1.5 mm). Ofrece un tránsito más mullido, mejor aislamiento termoacústico y mayor durabilidad.",
+        description: "Mayor espesor para consentir tus pies. Sus 1.5mm amortiguan tus pasos, aísla el frío del suelo y brinda un rincón más silencioso y duradero para toda la familia.",
         image: "/images/catalog_images/prod_linoleo15.jpg",
         swatches: [
           { name: "JC062", image: "/images/catalog_images/vinilico_page17_img3.png" },
@@ -299,7 +299,7 @@ export const catalogData: Category[] = [
           "Tipo": "Boucle",
           "Fibra": "100% Nylon de alta durabilidad"
         },
-        description: "Pasillo en bucle de Nylon con excelente resistencia al desgaste y facilidad de limpieza.",
+        description: "Un camino de bienvenida sumamente resistente y acogedor. Fabricado en nylon duradero, este pasillo guía tus pasos con elegancia, manteniéndose impecable ante el desgaste diario.",
         image: "/images/catalog_images/prod_epos.png",
         swatches: [
           { name: "Terracota", image: "/images/catalog_images/swatch_epos_1.jpg" },
@@ -317,7 +317,7 @@ export const catalogData: Category[] = [
           "Tipo": "Boucle",
           "Fibra": "100% Nylon"
         },
-        description: "Pasillo boucle de Nylon en color azul profundo, ideal para pasillos corporativos, hotelería y recepciones.",
+        description: "Viste tus corredores de calma y sobriedad. Su bucle de nylon en azul profundo es ideal para recepciones y pasillos comerciales que desean transmitir una primera impresión impecable y duradera.",
         image: "/images/catalog_images/prod_jena.jpg",
         swatches: [
           { name: "Azul", image: "/images/catalog_images/swatch_jena_1.jpg" }
@@ -334,7 +334,7 @@ export const catalogData: Category[] = [
           "Tipo": "Boucle",
           "Fibra": "100% Nylon"
         },
-        description: "Pasillo boucle de Nylon premium de alta resistencia, disponible en dos anchos para adaptarse a pasillos amplios o estándar.",
+        description: "La combinación ideal de distinción y resistencia bajo tus pies. Con una fibra premium de nylon, decora pasillos anchos y estándar con texturas agradables hechas para perdurar.",
         image: "/images/catalog_images/prod_madras.jpg",
         swatches: [
           { name: "Terracota (0.67m)", image: "/images/catalog_images/swatch_madras_1.jpg" },
@@ -356,7 +356,7 @@ export const catalogData: Category[] = [
           "Tipo": "Boucle",
           "Fibra": "100% Nylon"
         },
-        description: "Pasillo boucle con tonos jaspeados en gris y café, excelente para disimular la suciedad en zonas de tráfico constante.",
+        description: "Pensado para la vida real y el movimiento continuo. Sus tonos jaspeados en gris y café disimulan el paso del día a día, ofreciendo una superficie texturada y duradera muy fácil de cuidar.",
         image: "/images/catalog_images/prod_sarah.jpg",
         swatches: [
           { name: "Gris Oscuro", image: "/images/catalog_images/swatch_sarah_1.jpg" },
@@ -374,7 +374,7 @@ export const catalogData: Category[] = [
           "Tipo": "Boucle",
           "Fibra": "100% Nylon"
         },
-        description: "Línea boucle con patrones y texturas nativas en fibra de Nylon, ideal para una decoración cálida y rústica.",
+        description: "Conéctate con texturas nativas y orgánicas. Sus patrones inspirados en la naturaleza visten tus pasillos con un toque rústico y sumamente cálido, ideal para crear ambientes con alma.",
         image: "/images/catalog_images/prod_tribu.jpg",
         swatches: [
           { name: "Café", image: "/images/catalog_images/swatch_tribu_1.jpg" },
@@ -393,7 +393,7 @@ export const catalogData: Category[] = [
           "Tipo": "Boucle",
           "Fibra": "100% Poliéster"
         },
-        description: "Pasillo en bucle de Poliéster, con un ancho ideal de 90 cm. Aporta suavidad, ligereza y una gran variedad cromática.",
+        description: "Suave, ligero y lleno de vida. Este pasillo de 90 cm de ancho viste tus corredores con una pisada mullida de poliéster y colores cálidos que realzan la belleza de tu hogar.",
         image: "/images/catalog_images/prod_roma.png",
         swatches: [
           { name: "Café", image: "/images/catalog_images/swatch_roma_1.jpg" },
@@ -412,7 +412,7 @@ export const catalogData: Category[] = [
           "Tipo": "Boucle",
           "Fibra": "100% Poliéster"
         },
-        description: "La alfombra roja clásica para eventos, ceremonias de gala, matrimonios y entradas protocolares.",
+        description: "Haz que cada invitado se siente especial. La alfombra roja por excelencia que corona matrimonios, galas y entradas memorables con distinción y prestancia.",
         image: "/images/catalog_images/prod_ceremonia.jpg",
         swatches: [
           { name: "Rojo", image: "/images/catalog_images/swatch_ceremonia_1.jpg" }
@@ -429,7 +429,7 @@ export const catalogData: Category[] = [
           "Tipo": "Lux (Tupido / Suave)",
           "Fibra": "100% Poliéster"
         },
-        description: "Pasillo tupido y extra suave bajo la línea Lux. Proporciona una pisada mullida y confortable.",
+        description: "Una caricia mullida para tus pies en cada paso. Este pasillo destaca por su densidad extra suave, convirtiendo cualquier corredor en una alfombra de nubes de la que no querrás bajarte.",
         image: "/images/catalog_images/prod_lux.jpg",
         swatches: [
           { name: "Gris", image: "/images/catalog_images/swatch_lux_1.jpg" },
@@ -442,7 +442,7 @@ export const catalogData: Category[] = [
   {
     id: "pasto",
     name: "Pasto Sintético",
-    description: "Pasto artificial decorativo para jardines, terrazas y zonas de juego. Soluciones de bajo mantenimiento y aspecto natural todo el año.",
+    description: "Pasto artificial decorativo para gardens, terrazas y zonas de juego. Soluciones de bajo mantenimiento y aspecto natural todo el año.",
     image: "/images/catalog_images/category_pasto.jpg",
     products: [
       {
@@ -456,7 +456,7 @@ export const catalogData: Category[] = [
           "Medida Rollo 7mm": "3.75 x 30 metros (113 m²)",
           "Medida Rollo 12mm": "2.00 x 32 metros (64 m²)"
         },
-        description: "Pasto sintético unicolor de menor altura, económico y de fácil limpieza. Ideal para terrazas, balcones y eventos temporales.",
+        description: "Un toque verde que alegra tus balcones, terrazas y eventos. Económico, liviano y muy práctico, te permite disfrutar de un jardín eterno en cualquier rincón de tu casa sin preocuparte por el riego.",
         image: "/images/catalog_images/prod_pastodeco.jpg"
       },
       {
@@ -469,7 +469,7 @@ export const catalogData: Category[] = [
           "Base": "Backing de Látex con drenaje",
           "Medida Rollo 20mm/30mm/40mm": "4.00 x 25 metros (100 m²) o 2.00 x 32 metros (64 m²)"
         },
-        description: "Pasto artificial de aspecto muy realista gracias a sus dos tonos de verde. Resistente a rayos UV, suave al tacto e ideal para jardines y patios.",
+        description: "La frescura del pasto natural sin el trabajo de mantenerlo. Sus múltiples tonalidades verdes y su textura sumamente suave invitan a sentarse a jugar al aire libre todo el año.",
         image: "/images/catalog_images/prod_pastopro.jpg"
       },
       {
@@ -481,7 +481,7 @@ export const catalogData: Category[] = [
           "Embalaje 7mm": "120 rollos por caja",
           "Embalaje 20mm": "42 rollos por caja"
         },
-        description: "Formato fraccionado listo para llevar, perfecto para instalación rápida en pequeños proyectos de paisajismo, balcones o decoración comercial.",
+        description: "Formato listo para llevar a casa e instalar tú mismo. La solución más rápida para dar vida verde a tu balcón, rincón decorativo o vitrina comercial sin complicaciones.",
         image: "/images/catalog_images/prod_pastorollo.jpg"
       },
       {
@@ -492,7 +492,7 @@ export const catalogData: Category[] = [
           "Largo": "10 metros",
           "Adhesión": "Cinta Autoadhesiva incorporada"
         },
-        description: "Accesorio indispensable para unir paños de pasto sintético de manera segura, invisible y duradera.",
+        description: "El secreto detrás de un césped perfecto y sin uniones a la vista. Conecta cada rollo de pasto de manera firme, segura y duradera para un resultado profesional.",
         image: "/images/pasto-sintetico.png"
       }
     ]
@@ -513,7 +513,7 @@ export const catalogData: Category[] = [
           "Formatos de Rollo": "10 m² / 100 m²",
           "Propiedades": "No daña la capa de ozono, biológicamente inerte, flexible, resistente a temperatura (-40°C a 70°C), baja absorción de agua"
         },
-        description: "Manta niveladora y amortiguadora de espuma de polietileno expandido. Ideal como base bajo piso flotante y protección de embalajes.",
+        description: "Una capa silenciosa y protectora que cuida tu piso y tus pertenencias. Nivela las imperfecciones del suelo con suavidad y resguarda tus embalajes con una amortiguación inerte y segura.",
         image: "/images/catalog_images/prod_espumaestandar.jpg"
       },
       {
@@ -529,7 +529,7 @@ export const catalogData: Category[] = [
           "Atenuación Acústica": "19 dB",
           "Absorción de Humedad": "1% en volumen"
         },
-        description: "Base aislante reflectora de alto rendimiento. Ideal para calefacción por losa radiante o aislamiento térmico superior en techos y pisos flotantes.",
+        description: "La barrera definitiva contra el frío y la humedad. Su lámina de aluminio reflectante mantiene la temperatura ideal en tu hogar, optimizando la calefacción y protegiendo tu piso flotante con suavidad.",
         image: "/images/catalog_images/prod_espumametalizada.jpg"
       }
     ]
@@ -549,7 +549,7 @@ export const catalogData: Category[] = [
           "Largo": "76 centímetros",
           "Presentación": "12 cintas adhesivas por pack"
         },
-        description: "Cinta autoadhesiva de terminación para orillar alfombras, evitando que se deshilachen y logrando un acabado profesional.",
+        description: "El toque final y prolijo para tus alfombras. De colocación autoadhesiva sencilla, sella los bordes con firmeza evitando deshilachados y dándoles una terminación limpia y bonita.",
         image: "/images/catalog_images/prod_cintaorillado.jpg",
         swatches: [
           { name: "Azul", image: "/images/catalog_images/swatch_cinta_1.png" },
@@ -572,7 +572,7 @@ export const catalogData: Category[] = [
           "Tipo": "Boucle",
           "Fibra": "100% Nylon"
         },
-        description: "Piezas de alfombra pre-cortadas en boucle de Nylon para instalar en escaleras. Aportan confort y evitan resbalones.",
+        description: "Seguridad, calidez y silencio en cada escalón. Diseñados para vestir tus escaleras con suavidad al andar, previniendo resbalones y atenuando el ruido de las pisadas en el hogar.",
         image: "/images/catalog_images/prod_peldanos.jpg",
         swatches: [
           { name: "Rojo", image: "/images/catalog_images/swatch_peldanos_1.jpg" },
@@ -589,7 +589,7 @@ export const catalogData: Category[] = [
           "Largo de Rollo": "30.00 metros lineales",
           "Diseños Disponibles": "25 diseños (M1 a M25)"
         },
-        description: "Manteles impermeables y fáciles de limpiar, ideales para uso diario en hogares, restaurantes y eventos.",
+        description: "Protección alegre e impermeable para tu mesa diaria. Su limpieza es tan fácil como pasar un paño húmedo, listos para resistir los almuerzos familiares, manualidades y el ritmo del día a día.",
         image: "/images/catalog_images/prod_manteles.jpg",
         swatches: [
           { name: "M1", image: "/images/catalog_images/swatch_mantel_M1.jpg" },
@@ -625,7 +625,7 @@ export const catalogData: Category[] = [
           "Medida Estándar": "40 x 60 centímetros",
           "Tipos Disponibles": "Con Goma / Welcome / Lux / Coco"
         },
-        description: "Limpiapies resistentes y de gran durabilidad, ideales para retener la suciedad del calzado en la entrada del hogar o negocio.",
+        description: "La primera bienvenida a tu hogar. Diseñados para resistir el roce diario y retener el polvo y la humedad, manteniendo el interior de tu casa limpio y acogedor.",
         image: "/images/catalog_images/prod_limpiapies.jpg",
         swatches: [
           { name: "Con Goma - Gris", image: "/images/catalog_images/swatch_limpiapies_gris.jpg" },
