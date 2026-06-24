@@ -191,9 +191,10 @@ export default function App() {
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
               <img 
                 src="/images/hero.png" 
-                alt="Detalle de espuma de polietileno expandido" 
+                alt="Detalle de espuma de polietileno expandido de ThermoFoam" 
                 className="w-full h-auto object-cover"
                 referrerPolicy="no-referrer"
+                fetchPriority="high"
               />
             </div>
             {/* Decorative elements */}
@@ -254,9 +255,10 @@ export default function App() {
               <div className="h-64 overflow-hidden">
                 <img 
                   src="/images/espuma.png" 
-                  alt="Rollos de Espuma de Polietileno Expandido" 
+                  alt="Rollos de espuma de polietileno expandido para aislación y embalaje" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
               </div>
               <div className="p-8">
@@ -279,9 +281,10 @@ export default function App() {
               <div className="h-64 overflow-hidden">
                 <img 
                   src="/images/piso.png" 
-                  alt="Piso Flotante" 
+                  alt="Instalación de piso flotante moderno y duradero con aislación" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
               </div>
               <div className="p-8">
@@ -304,9 +307,10 @@ export default function App() {
               <div className="h-64 overflow-hidden">
                 <img 
                   src="/images/alfombra.png" 
-                  alt="Alfombras Muro a Muro" 
+                  alt="Alfombras muro a muro para proyectos comerciales y residenciales" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
               </div>
               <div className="p-8">
@@ -329,9 +333,10 @@ export default function App() {
               <div className="h-64 overflow-hidden">
                 <img 
                   src="/images/pasto-sintetico.png" 
-                  alt="Pasto Sintético" 
+                  alt="Instalación de pasto sintético duradero y natural para terrazas y jardines" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
               </div>
               <div className="p-8">
@@ -354,9 +359,10 @@ export default function App() {
               <div className="h-64 overflow-hidden">
                 <img 
                   src="/images/pasillos-alfombra.png" 
-                  alt="Rollos de Pasillos de Alfombra" 
+                  alt="Rollos de pasillos de alfombra de alta calidad para eventos y pasarelas" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
               </div>
               <div className="p-8">
@@ -379,9 +385,10 @@ export default function App() {
               <div className="h-64 overflow-hidden">
                 <img 
                   src="/images/vinilico.png" 
-                  alt="Vinílico en Rollo (0.9 a 1.5mm)" 
+                  alt="Piso vinílico en rollo resistente al agua de 0.9mm y 1.5mm de espesor" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
               </div>
               <div className="p-8">
@@ -416,9 +423,10 @@ export default function App() {
             <div className="group relative overflow-hidden rounded-[2.5rem] aspect-video md:aspect-auto md:h-[500px]">
               <img 
                 src="/images/uso-piso.png" 
-                alt="Instalación de piso flotante" 
+                alt="Base niveladora y barrera de humedad para pisos flotantes" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/20 to-transparent flex flex-col justify-end p-10">
                 <h3 className="text-3xl font-bold text-white mb-4">Pisos Flotantes</h3>
@@ -439,9 +447,10 @@ export default function App() {
             <div className="group relative overflow-hidden rounded-[2.5rem] aspect-video md:aspect-auto md:h-[500px]">
               <img 
                 src="/images/uso-embalaje.png" 
-                alt="Embalaje protector" 
+                alt="Embalaje protector y amortiguación de impactos con espuma de polietileno" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-light/90 via-brand-light/20 to-transparent flex flex-col justify-end p-10">
                 <h3 className="text-3xl font-bold text-white mb-4">Embalaje y Protección</h3>
@@ -619,10 +628,11 @@ export default function App() {
               {!logoError && (
                 <img 
                   src={LOGO_URL} 
-                  alt="ThermoFoam Logo" 
+                  alt="ThermoFoam Logo Chile" 
                   className="h-8 w-auto" 
                   referrerPolicy="no-referrer"
                   onError={() => setLogoError(true)}
+                  loading="lazy"
                 />
               )}
               <span className="font-bold text-lg tracking-tight text-brand-dark">
@@ -632,7 +642,7 @@ export default function App() {
             
             {/* Cannon Concept Logo Footer */}
             <a href="https://www.cannonconcept.cl" target="_blank" rel="noopener noreferrer" className="border-l-2 border-slate-200 pl-4 md:pl-6 hover:opacity-80 transition-opacity flex items-center">
-              <img src="/images/cannon.png" alt="Cannon Concept Logo" className="h-6 md:h-8 w-auto object-contain" />
+              <img src="/images/cannon.png" alt="Cannon Concept Logo Chile" className="h-6 md:h-8 w-auto object-contain" loading="lazy" />
             </a>
           </div>
           
