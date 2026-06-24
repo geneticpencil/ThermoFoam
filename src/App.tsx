@@ -226,27 +226,6 @@ export default function App() {
                   >
                     Ver Productos
                   </a>
-                  
-                  <div className="w-full flex flex-col sm:flex-row gap-4 mt-2">
-                    <a 
-                      href="https://drive.google.com/uc?export=download&id=18aMP_XKzOk3nS9gaq_9EBJQRgy2SAZO8"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-brand-light/10 text-brand-dark px-6 py-4 rounded-2xl font-bold hover:bg-brand-light/20 transition-all flex items-center justify-center gap-2 flex-1 text-center text-sm md:text-base"
-                    >
-                      Descargar Catálogo Flooring
-                      <Download size={18} />
-                    </a>
-                    <a 
-                      href="https://drive.google.com/uc?export=download&id=1luh7WnAhleLkDl8t_N781dfe7VNjceJS"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-brand-dark/10 text-brand-dark px-6 py-4 rounded-2xl font-bold hover:bg-brand-dark/20 transition-all flex items-center justify-center gap-2 flex-1 text-center text-sm md:text-base"
-                    >
-                      Descargar Catálogo Alfombras Dimensionadas
-                      <Download size={18} />
-                    </a>
-                  </div>
                 </div>
               </motion.div>
 
