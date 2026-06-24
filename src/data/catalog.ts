@@ -6,6 +6,7 @@ export interface Product {
   specs: { [key: string]: string };
   description: string;
   image: string;
+  swatches?: { name: string; image: string }[];
 }
 
 export interface Category {
@@ -102,8 +103,8 @@ export const catalogData: Category[] = [
   },
   {
     id: "pisos",
-    name: "Pisos & Revestimientos",
-    description: "Pisos vinílicos SPC impermeables, pisos flotantes de alto tráfico y linóleos en rollo. Soluciones prácticas y estéticas.",
+    name: "Pisos Flotantes & SPC",
+    description: "Pisos laminados flotantes y revestimientos rígidos de compuesto de piedra (SPC) de alto tráfico. Diseños texturados de gran elegancia.",
     image: "/images/piso.png",
     products: [
       {
@@ -120,7 +121,14 @@ export const catalogData: Category[] = [
           "Rendimiento Pallet": "157.30 m² (65 cajas)"
         },
         description: "Piso de compuesto de piedra plástica (SPC) de alta resistencia, 100% impermeable con manta de aislamiento acústico IXPE integrada.",
-        image: "/images/piso.png"
+        image: "/images/piso.png",
+        swatches: [
+          { name: "Alamo Oak", image: "/images/catalog_images/spc_page7_img2.png" },
+          { name: "Arena Oak", image: "/images/catalog_images/spc_page7_img3.png" },
+          { name: "Ceniza Oak", image: "/images/catalog_images/spc_page7_img4.png" },
+          { name: "Gris Oak", image: "/images/catalog_images/spc_page7_img5.png" },
+          { name: "Castaño Oak", image: "/images/catalog_images/spc_page7_img6.png" }
+        ]
       },
       {
         name: "Smart SPC 4.5mm",
@@ -136,7 +144,12 @@ export const catalogData: Category[] = [
           "Rendimiento Pallet": "159.90 m² (65 cajas)"
         },
         description: "Línea inteligente de SPC, más ligera pero con excelente estabilidad dimensional, resistencia al agua y manta EVA incorporada.",
-        image: "/images/piso.png"
+        image: "/images/piso.png",
+        swatches: [
+          { name: "Ceniza Oak", image: "/images/catalog_images/spc_page7_img7.png" },
+          { name: "Arena Oak", image: "/images/catalog_images/spc_page8_img3.png" },
+          { name: "Cerezo Oak", image: "/images/catalog_images/spc_page8_img4.png" }
+        ]
       },
       {
         name: "Piso Flotante EcoFloor (AC2)",
@@ -152,7 +165,15 @@ export const catalogData: Category[] = [
           "Rendimiento Pallet": "145.20 m² (60 cajas)"
         },
         description: "Piso flotante laminado clásico con núcleo de MDF, ideal para renovar habitaciones y salas con un aspecto amaderado natural y acogedor.",
-        image: "/images/piso.png"
+        image: "/images/piso.png",
+        swatches: [
+          { name: "Cerezo", image: "/images/catalog_images/flotante_page12_img6.png" },
+          { name: "Olmo", image: "/images/catalog_images/flotante_page12_img7.png" },
+          { name: "Tropical", image: "/images/catalog_images/flotante_page12_img8.png" },
+          { name: "Madera Oscura", image: "/images/catalog_images/flotante_page12_img9.png" },
+          { name: "Gris Perla", image: "/images/catalog_images/flotante_page13_img4.png" },
+          { name: "Haya", image: "/images/catalog_images/flotante_page13_img5.png" }
+        ]
       },
       {
         name: "Piso Flotante Pro (AC4)",
@@ -168,20 +189,59 @@ export const catalogData: Category[] = [
           "Rendimiento Pallet": "144.00 m² (60 cajas)"
         },
         description: "Piso laminado de alta densidad (HDF) diseñado para resistir un tráfico intenso. Cuenta con clasificación AC4 para máxima resistencia.",
-        image: "/images/piso.png"
+        image: "/images/piso.png",
+        swatches: [
+          { name: "Cerezo", image: "/images/catalog_images/flotante_page12_img6.png" },
+          { name: "Olmo", image: "/images/catalog_images/flotante_page12_img7.png" },
+          { name: "Tropical", image: "/images/catalog_images/flotante_page12_img8.png" },
+          { name: "Madera Oscura", image: "/images/catalog_images/flotante_page12_img9.png" }
+        ]
+      }
+    ]
+  },
+  {
+    id: "vinilicos",
+    name: "Pisos Vinílicos en Rollo",
+    description: "Revestimientos vinílicos e impermeables en rollo de fácil limpieza e instalación. Disponibles en una gran gama de diseños y en variados espesores.",
+    image: "/images/vinilico.png",
+    products: [
+      {
+        name: "Linóleo Vinílico en Rollo (0.9 mm y 1.3 mm)",
+        type: "Piso Vinílico en Rollo",
+        colors: ["JC008", "JC062", "JC003", "JC002", "98-5", "JC044", "JC004"],
+        specs: {
+          "Espesores Disponibles": "0.9 mm / 1.3 mm",
+          "Ancho de Rollo": "2.00 metros",
+          "Largo de Rollo": "25.00 metros",
+          "Rendimiento de Rollo": "50.00 m²"
+        },
+        description: "Revestimiento vinílico en rollo, muy fácil de limpiar e instalar. Resistente al agua, ideal para cocinas, baños y comercios de tránsito residencial.",
+        image: "/images/vinilico.png",
+        swatches: [
+          { name: "JC008", image: "/images/catalog_images/vinilico_page15_img2.png" },
+          { name: "JC062", image: "/images/catalog_images/vinilico_page15_img3.png" },
+          { name: "JC003", image: "/images/catalog_images/vinilico_page15_img5.png" },
+          { name: "JC002", image: "/images/catalog_images/vinilico_page15_img6.png" },
+          { name: "98-5", image: "/images/catalog_images/vinilico_page15_img7.png" },
+          { name: "JC044", image: "/images/catalog_images/vinilico_page15_img8.png" }
+        ]
       },
       {
-        name: "Linóleo Vinílico en Rollo",
+        name: "Linóleo Vinílico en Rollo (1.5 mm)",
         type: "Piso Vinílico en Rollo",
-        colors: ["Diseño JC008", "Diseño JC062", "Diseño JC003", "Diseño JC002", "Diseño 98-5", "Diseño JC044", "Diseño JC004"],
+        colors: ["JC062", "JC004"],
         specs: {
-          "Espesores Disponibles": "0.9 mm / 1.3 mm / 1.5 mm",
+          "Espesor": "1.5 mm",
           "Ancho de Rollo": "2.00 metros",
-          "Largo (0.9mm / 1.3mm)": "25.00 metros (Rollo de 50 m²)",
-          "Largo (1.5mm)": "20.00 metros (Rollo de 40 m²)"
+          "Largo de Rollo": "20.00 metros",
+          "Rendimiento de Rollo": "40.00 m²"
         },
-        description: "Revestimiento vinílico en rollo, muy fácil de limpiar e instalar. Resistente al agua, ideal para cocinas, baños y comercios.",
-        image: "/images/vinilico.png"
+        description: "Piso vinílico en rollo de mayor espesor (1.5 mm). Ofrece un tránsito más mullido, mejor aislamiento termoacústico y mayor durabilidad.",
+        image: "/images/vinilico.png",
+        swatches: [
+          { name: "JC062", image: "/images/catalog_images/vinilico_page17_img3.png" },
+          { name: "JC004", image: "/images/catalog_images/vinilico_page17_img4.png" }
+        ]
       }
     ]
   },
