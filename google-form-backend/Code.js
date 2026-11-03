@@ -4,6 +4,7 @@
 // constante FORM_ENDPOINT de src/data/site.ts.
 
 const AVISAR_A = "sergio@thermofoam.cl";
+const COPIA_A = "jdgarcia@thermofoam.cl";
 const NOMBRE_PLANILLA = "Cotizaciones web thermofoam.cl";
 const COLUMNAS = ["Fecha", "Nombre", "Empresa", "Teléfono", "Correo", "Tipo de cliente", "Comuna", "Productos", "Detalle", "Página"];
 
@@ -33,6 +34,7 @@ function doPost(e) {
 
   MailApp.sendEmail({
     to: AVISAR_A,
+    cc: COPIA_A,
     replyTo: p.email,
     name: "thermofoam.cl",
     subject: `Nueva cotización web: ${limpiar(p.nombre)}${p.empresa ? " — " + limpiar(p.empresa) : ""}`,
