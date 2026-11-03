@@ -8,3 +8,4 @@ coverage/
 !.env.example
 CatalogoCannonBucleyPisos.pdf
 public/images/extracted/
+.vercel

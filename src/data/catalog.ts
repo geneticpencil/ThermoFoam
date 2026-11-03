@@ -22,7 +22,7 @@ export const catalogData: Category[] = [
     id: "alfombras",
     name: "Alfombras Muro a Muro",
     description: "Confort, calidez y aislamiento térmico y acústico para oficinas y hogares. Variedad de colores y texturas de alta resistencia.",
-    image: "/images/catalog_images/category_alfombras.jpg",
+    image: "/images/v2/alfombra-bali.webp",
     products: [
       {
         name: "Baron",
@@ -80,7 +80,7 @@ export const catalogData: Category[] = [
           "Tipo de Alfombra": "Boucle"
         },
         description: "Un refugio de paz para tu hogar. Dalton combina un diseño sutil y minimalista con una textura sumamente reconfortante, ideal para crear rincones de relajación en tonos naturales.",
-        image: "/images/catalog_images/prod_dalton.jpg",
+        image: "/images/v2/alfombra-dalton.webp",
         swatches: [
           { name: "Gris Perla", image: "/images/catalog_images/swatch_dalton_1.jpg" },
           { name: "Beige", image: "/images/catalog_images/swatch_dalton_2.jpg" }
@@ -99,7 +99,7 @@ export const catalogData: Category[] = [
           "Tipo de Alfombra": "Boucle"
         },
         description: "El equilibrio perfecto entre elegancia y practicidad diaria. Ofrece una pisada confortable y mullida a la vez que es sumamente fácil de limpiar, ideal para hogares activos y oficinas modernas.",
-        image: "/images/catalog_images/prod_bali.jpg",
+        image: "/images/v2/alfombra-bali.webp",
         swatches: [
           { name: "Visón", image: "/images/catalog_images/swatch_bali_1.jpg" },
           { name: "Beige", image: "/images/catalog_images/swatch_bali_2.jpg" }
@@ -134,7 +134,7 @@ export const catalogData: Category[] = [
     id: "flotantes",
     name: "Pisos Flotantes",
     description: "Pisos laminados flotantes de alta calidad con núcleos de fibra de madera de densidad media y alta (MDF/HDF). Diseños elegantes y alta durabilidad.",
-    image: "/images/catalog_images/category_flotantes.jpg",
+    image: "/images/v2/flotante-cocina.webp",
     products: [
       {
         name: "Piso Flotante EcoFloor (AC2)",
@@ -150,7 +150,7 @@ export const catalogData: Category[] = [
           "Rendimiento Pallet": "145.20 m² (60 cajas)"
         },
         description: "La calidez clásica de la madera en su expresión más práctica. Su diseño natural y amaderado transforma las habitaciones en espacios acogedores, listos para albergar momentos familiares inolvidables.",
-        image: "/images/catalog_images/prod_ecofloor.jpg",
+        image: "/images/v2/flotante-cocina.webp",
         swatches: [
           { name: "Cerezo", image: "/images/catalog_images/flotante_page12_img6.png" },
           { name: "Olmo", image: "/images/catalog_images/flotante_page12_img7.png" },
@@ -174,7 +174,7 @@ export const catalogData: Category[] = [
           "Rendimiento Pallet": "144.00 m² (60 cajas)"
         },
         description: "Hecho para durar toda la vida y resistir las jornadas más activas de tu hogar o comercio. Con su núcleo ultra resistente de HDF y estándar AC4, soporta el tránsito pesado sin perder un ápice de su belleza natural.",
-        image: "/images/catalog_images/prod_flotantepro.jpg",
+        image: "/images/v2/flotante-oficina.webp",
         swatches: [
           { name: "Cerezo", image: "/images/catalog_images/flotante_page12_img6.png" },
           { name: "Olmo", image: "/images/catalog_images/flotante_page12_img7.png" },
@@ -188,7 +188,7 @@ export const catalogData: Category[] = [
     id: "spc",
     name: "Pisos SPC",
     description: "Revestimientos de compuesto de piedra plástica (Stone Plastic Composite), 100% impermeables y con manta de aislamiento incorporada (IXPE/EVA).",
-    image: "/images/catalog_images/category_spc.jpg",
+    image: "/images/v2/spc-arena.webp",
     products: [
       {
         name: "Piso Vinílico SPC 5mm",
@@ -204,7 +204,7 @@ export const catalogData: Category[] = [
           "Rendimiento Pallet": "157.30 m² (65 cajas)"
         },
         description: "Robusto como la piedra pero con el tacto acogedor de la madera. Su composición impermeable te brinda total tranquilidad ante derrames en cocinas y baños, mientras su manta acústica integrada amortigua cada paso con suavidad.",
-        image: "/images/catalog_images/prod_spc5mm.jpg",
+        image: "/images/v2/spc-gris.webp",
         swatches: [
           { name: "Alamo Oak", image: "/images/catalog_images/spc_page7_img2.png" },
           { name: "Arena Oak", image: "/images/catalog_images/spc_page7_img3.png" },
@@ -286,7 +286,7 @@ export const catalogData: Category[] = [
     id: "pasillos",
     name: "Pasillos de Alfombra",
     description: "Rollos de pasillo elegantes y de alta resistencia en fibras de Nylon y Poliéster. Perfectos para pasarelas, escaleras, pasillos y eventos.",
-    image: "/images/catalog_images/category_pasillos.jpg",
+    image: "/images/v2/pasillo-escalera.webp",
     products: [
       {
         name: "Epos",
@@ -357,7 +357,7 @@ export const catalogData: Category[] = [
           "Fibra": "100% Nylon"
         },
         description: "Pensado para la vida real y el movimiento continuo. Sus tonos jaspeados en gris y café disimulan el paso del día a día, ofreciendo una superficie texturada y duradera muy fácil de cuidar.",
-        image: "/images/catalog_images/prod_sarah.jpg",
+        image: "/images/v2/pasillo-sarah.webp",
         swatches: [
           { name: "Gris Oscuro", image: "/images/catalog_images/swatch_sarah_1.jpg" },
           { name: "Café", image: "/images/catalog_images/swatch_sarah_2.jpg" }
@@ -442,8 +442,8 @@ export const catalogData: Category[] = [
   {
     id: "pasto",
     name: "Pasto Sintético",
-    description: "Pasto artificial decorativo para gardens, terrazas y zonas de juego. Soluciones de bajo mantenimiento y aspecto natural todo el año.",
-    image: "/images/catalog_images/category_pasto.jpg",
+    description: "Pasto artificial decorativo para jardines, terrazas y zonas de juego. Soluciones de bajo mantenimiento y aspecto natural todo el año.",
+    image: "/images/v2/pasto-terraza.webp",
     products: [
       {
         name: "Pasto Sintético Deco 7mm / 12mm",
@@ -470,7 +470,7 @@ export const catalogData: Category[] = [
           "Medida Rollo 20mm/30mm/40mm": "4.00 x 25 metros (100 m²) o 2.00 x 32 metros (64 m²)"
         },
         description: "La frescura del pasto natural sin el trabajo de mantenerlo. Sus múltiples tonalidades verdes y su textura sumamente suave invitan a sentarse a jugar al aire libre todo el año.",
-        image: "/images/catalog_images/prod_pastopro.jpg"
+        image: "/images/v2/pasto-terraza.webp"
       },
       {
         name: "Pasto Sintético en Rollo Individual (Caja)",
@@ -501,7 +501,7 @@ export const catalogData: Category[] = [
     id: "espumas",
     name: "Espumas de Polietileno",
     description: "Espumas niveladoras y aislantes bajo piso flotante y espumas de embalaje. Excelente aislamiento térmico y protección industrial.",
-    image: "/images/catalog_images/category_espumas.jpg",
+    image: "/images/v2/espuma-instalacion.webp",
     products: [
       {
         name: "Espuma de Polietileno Estándar",
@@ -514,7 +514,7 @@ export const catalogData: Category[] = [
           "Propiedades": "No daña la capa de ozono, biológicamente inerte, flexible, resistente a temperatura (-40°C a 70°C), baja absorción de agua"
         },
         description: "Una capa silenciosa y protectora que cuida tu piso y tus pertenencias. Nivela las imperfecciones del suelo con suavidad y resguarda tus embalajes con una amortiguación inerte y segura.",
-        image: "/images/catalog_images/prod_espumaestandar.jpg"
+        image: "/images/v2/espuma-rollo-sala.webp"
       },
       {
         name: "Espuma de Polietileno Metalizada",
@@ -538,7 +538,7 @@ export const catalogData: Category[] = [
     id: "otros",
     name: "Accesorios & Otros",
     description: "Cintas de terminación de alfombra, peldaños antideslizantes, limpiapies de entrada y manteles de hule en rollo.",
-    image: "/images/catalog_images/category_accesorios.jpg",
+    image: "/images/catalog_images/prod_peldanos.jpg",
     products: [
       {
         name: "Cinta de Orillado",
