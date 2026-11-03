@@ -9,3 +9,5 @@ coverage/
 CatalogoCannonBucleyPisos.pdf
 public/images/extracted/
 .vercel
+.claude
+CLAUDE.md
